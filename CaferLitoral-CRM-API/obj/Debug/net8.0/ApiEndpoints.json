@@ -1,0 +1,229 @@
+[
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.ArticuloController",
+    "Method": "BuscarPorNombre",
+    "RelativePath": "api/Articulo/BuscarPorNombre/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.ArticuloController",
+    "Method": "GetAll",
+    "RelativePath": "api/Articulo/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.ArticuloController",
+    "Method": "ObtenerPorCodigo",
+    "RelativePath": "api/Articulo/ObtenerPorCodigo/{codArt}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codArt",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.ArticuloController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/Articulo/ObtenerTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.ClientController",
+    "Method": "GetById",
+    "RelativePath": "api/Client/GetById/{codCli}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.ClientController",
+    "Method": "GetResumen",
+    "RelativePath": "api/Client/resumen/{codCli}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.ClientController",
+    "Method": "Search",
+    "RelativePath": "api/Client/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.FacturaController",
+    "Method": "GetByClient",
+    "RelativePath": "api/Factura/cliente/{codCli}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.PedidoController",
+    "Method": "CrearPedido",
+    "RelativePath": "api/Pedido/CrearPedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Application.Models.DTOs.CrearPedidoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.PedidoController",
+    "Method": "GetAllPedidos",
+    "RelativePath": "api/Pedido/GetAllPedidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.PedidoController",
+    "Method": "ObtenerHistorial",
+    "RelativePath": "api/Pedido/ObtenerHistorial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.PedidoController",
+    "Method": "ObtenerPedidoPorNumero",
+    "RelativePath": "api/Pedido/ObtenerPedidoPorNumero/{csid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "csid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.PedidoController",
+    "Method": "SyncPedidos",
+    "RelativePath": "api/Pedido/SyncPedidos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedidosDto",
+        "Type": "System.Collections.Generic.List\u00601[[Application.Models.DTOs.CrearPedidoDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Models.Requests.UserLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

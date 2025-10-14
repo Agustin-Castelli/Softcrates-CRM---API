@@ -1,0 +1,6 @@
+@CaferLitoral_CRM_API_HostAddress = http://localhost:5109
+
+GET {{CaferLitoral_CRM_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
