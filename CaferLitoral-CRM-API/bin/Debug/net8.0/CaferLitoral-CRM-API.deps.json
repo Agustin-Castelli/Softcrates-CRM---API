@@ -599,7 +599,8 @@
       },
       "Application/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Microsoft.Extensions.Logging": "8.0.1"
         },
         "runtime": {
           "Application.dll": {

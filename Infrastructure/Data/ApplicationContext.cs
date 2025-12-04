@@ -16,6 +16,9 @@ namespace Infrastructure.Data
         public DbSet<Artic> Articulos { get; set; }
         public DbSet<PedWebCab> PedidosCab { get; set; }
         public DbSet<PedWebArt> PedidosDet { get; set; }
+        public DbSet<BocEnt> BocaEntrega { get; set; }
+        public DbSet<BonArtCli> BonificacionesArticuloCliente { get; set; }
+        public DbSet<BonClaDet> BonificacionesClaseDetalle { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -195,6 +198,7 @@ namespace Infrastructure.Data
                 entity.Property(e => e.AutPedSec).HasColumnName("AutPedSec");
                 entity.Property(e => e.UsrAutSec).HasColumnName("UsrAutSec");
                 entity.Property(e => e.FecAutSec).HasColumnName("FecAutSec");
+                entity.Property(e => e.Confirmado).HasColumnName("Confirmado");
 
 
                 entity.HasMany(c => c.Detalles)
@@ -232,6 +236,58 @@ namespace Infrastructure.Data
                 entity.HasOne(d => d.Articulo)
                     .WithMany(a => a.PedidosDetalle)
                     .HasForeignKey(d => d.CodArt);
+            });
+
+            // Mapeo de tabla BocEnt
+            modelBuilder.Entity<BocEnt>(entity =>
+            {
+                entity.ToTable("BocEnt");
+                entity.HasKey(e => new { e.CodCli, e.NroBocEnt })
+                      .HasName("PK_BocEnt");  // <-------- AVERIGUAR BIEN CUAL ES LA PK, la actual es la supuesta en base a estructura de tabla
+                      
+
+                entity.Property(e => e.CodCli).HasColumnName("codcli").IsRequired();
+                entity.Property(e => e.NroBocEnt).HasColumnName("nrobocent").IsRequired(); ;
+                entity.Property(e => e.NomBocEnt).HasColumnName("nombocent").HasMaxLength(50).IsRequired(); ;
+                entity.Property(e => e.DomBocEnt).HasColumnName("dombocent").HasMaxLength(60).IsRequired(false); // nullable
+
+            });
+
+
+            // Mapeo de tabla BonArtCli
+
+            modelBuilder.Entity<BonArtCli>(entity =>
+            {
+                entity.ToTable("BonArtCli");
+                entity.HasKey(e => new { e.CodCli, e.CodArt })
+                      .HasName("PK_BonArtCli");
+
+                entity.Property(e => e.CodCli).HasColumnName("CodCli");
+                entity.Property(e => e.CodArt).HasColumnName("CodArt");
+                entity.Property(e => e.CodClaBon).HasColumnName("CodClaBon");
+                entity.Property(e => e.Inactivo).HasColumnName("inactivo");
+
+                // VER COMO SON LAS RELACIONES CON BONCLADET, PEDWEBCAB Y PEDWEBART (o si la relacion es con Artic y Clien)
+            });
+
+            // Mapeo de tabla BonClaDet
+
+            modelBuilder.Entity<BonClaDet>(entity =>
+            {
+                entity.ToTable("BonClaDet");
+                entity.HasKey(e => new { e.CodClaBon, e.Secuencia })
+                      .HasName("PK_BonClaDet");
+
+                entity.Property(e => e.CodClaBon).HasColumnName("CodClaBon");
+                entity.Property(e => e.Secuencia).HasColumnName("Secuencia");
+                entity.Property(e => e.TipEsc).HasColumnName("TipEsc").HasMaxLength(1).IsFixedLength();
+                entity.Property(e => e.ValEscDes).HasColumnName("ValEscDes");
+                entity.Property(e => e.ValEscHas).HasColumnName("ValEscHas");
+                entity.Property(e => e.PorBonImp).HasColumnName("PorBonImp");
+                entity.Property(e => e.PorBonCan).HasColumnName("PorBonCan");
+                entity.Property(e => e.DisFac).HasColumnName("disfac").HasMaxLength(1).IsFixedLength();
+
+                // VER COMO SON LAS RELACIONES CON BONARTCLI, PEDWEBCAB Y PEDWEBART (o si la relacion es con Artic y Clien)
             });
         }
     }

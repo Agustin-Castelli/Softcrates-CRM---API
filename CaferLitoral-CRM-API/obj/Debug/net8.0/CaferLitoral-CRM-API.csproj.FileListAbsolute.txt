@@ -84,3 +84,4 @@ C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\CaferLitoral-CRM-API\obj\Debu
 C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\CaferLitoral-CRM-API\obj\Debug\net8.0\CaferLitoral-CRM-API.pdb
 C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\CaferLitoral-CRM-API\obj\Debug\net8.0\CaferLitoral-CRM-API.genruntimeconfig.cache
 C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\CaferLitoral-CRM-API\obj\Debug\net8.0\ref\CaferLitoral-CRM-API.dll
+C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\CaferLitoral-CRM-API\obj\Debug\net8.0\CaferLitoral-CRM-API.sourcelink.json

@@ -28,6 +28,9 @@ builder.Services.AddScoped<IFacturaRepository, FacturaRepository>();
 builder.Services.AddScoped<IArticuloRepository, ArticuloRepository>();
 builder.Services.AddScoped<IPreVRepository, PreVRepository>();
 builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
+builder.Services.AddScoped<IBocEntRepository, BocEntRepository>();
+builder.Services.AddScoped<IBonArtCliRepository, BonArtCliRepository>();
+builder.Services.AddScoped<IBonClaDetRepository, BonClaDetRepository>();
 #endregion
 
 //3. Servicios
@@ -37,6 +40,8 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IFacturaService, FacturaService>();
 builder.Services.AddScoped<IArticuloService, ArticuloService>();
 builder.Services.AddScoped<IPedidoService, PedidoService>();
+builder.Services.AddScoped<IBocEntService, BocEntService>();
+builder.Services.AddScoped<IBonificacionService, BonificacionService>();
 #endregion
 
 

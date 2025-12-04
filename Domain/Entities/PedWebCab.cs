@@ -46,6 +46,7 @@ namespace Domain.Entities
         public string AutPedSec { get; set; } = string.Empty;
         public string UsrAutSec { get; set; } = string.Empty;
         public DateTime FecAutSec { get; set; }
+        public int Confirmado { get; set; } = 0;
 
         public ICollection<PedWebArt>? Detalles { get; set; }
     }

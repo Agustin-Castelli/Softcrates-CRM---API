@@ -12,6 +12,8 @@ namespace Application.Models.DTOs
         public short CemCbt { get; set; }                      // Centro emisor
         public int NroCbt { get; set; }                      // Número comprobante
         public int CodCli { get; set; }                      // Cliente
+        public int Confirmado { get; set; } = 0;             // Confirmacion del pedido (0: no / 1: si)
+        public int NroBocEnt { get; set; }
 
         public List<CrearPedidoDetalleDto> Detalles { get; set; } = new();
     }

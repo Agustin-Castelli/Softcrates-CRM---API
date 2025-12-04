@@ -17,3 +17,4 @@ C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\Infrastructure\obj\Debug\net8
 C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Agustin\source\repos\CaferLitoral-CRM-API\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

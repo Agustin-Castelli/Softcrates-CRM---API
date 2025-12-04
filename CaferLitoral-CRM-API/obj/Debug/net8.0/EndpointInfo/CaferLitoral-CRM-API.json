@@ -93,6 +93,244 @@
         }
       }
     },
+    "/api/BocEnt/GetAll": {
+      "get": {
+        "tags": [
+          "BocEnt"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BocEnt/GetByCliente/{codCli}": {
+      "get": {
+        "tags": [
+          "BocEnt"
+        ],
+        "parameters": [
+          {
+            "name": "codCli",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BocEnt/GetById/{codCli}/{nroBocEnt}": {
+      "get": {
+        "tags": [
+          "BocEnt"
+        ],
+        "parameters": [
+          {
+            "name": "codCli",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "nroBocEnt",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BonArtCli/GetAll": {
+      "get": {
+        "tags": [
+          "BonArtCli"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BonArtCli/GetByCliente/{codCli}": {
+      "get": {
+        "tags": [
+          "BonArtCli"
+        ],
+        "parameters": [
+          {
+            "name": "codCli",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BonClaDet/GetAll": {
+      "get": {
+        "tags": [
+          "BonClaDet"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BonClaDet/GetByCodClaBon/{codClaBon}": {
+      "get": {
+        "tags": [
+          "BonClaDet"
+        ],
+        "parameters": [
+          {
+            "name": "codClaBon",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonificacion/GetArticulosConBonificacion/{codCli}": {
+      "get": {
+        "tags": [
+          "Bonificacion"
+        ],
+        "parameters": [
+          {
+            "name": "codCli",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonificacion/GetPorcentaje/{codCli}/{codArt}": {
+      "get": {
+        "tags": [
+          "Bonificacion"
+        ],
+        "parameters": [
+          {
+            "name": "codCli",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "codArt",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cantidad",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "precioUnitario",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonificacion/GetBonificacionBase/{codCli}/{codArt}": {
+      "get": {
+        "tags": [
+          "Bonificacion"
+        ],
+        "parameters": [
+          {
+            "name": "codCli",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "codArt",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Client/GetById/{codCli}": {
       "get": {
         "tags": [
@@ -400,6 +638,14 @@
             "format": "int32"
           },
           "codCli": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "confirmado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nroBocEnt": {
             "type": "integer",
             "format": "int32"
           },

@@ -63,6 +63,173 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BocEntController",
+    "Method": "GetAll",
+    "RelativePath": "api/BocEnt/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BocEntController",
+    "Method": "GetByCliente",
+    "RelativePath": "api/BocEnt/GetByCliente/{codCli}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BocEntController",
+    "Method": "GetById",
+    "RelativePath": "api/BocEnt/GetById/{codCli}/{nroBocEnt}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nroBocEnt",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BonArtCliController",
+    "Method": "GetAll",
+    "RelativePath": "api/BonArtCli/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BonArtCliController",
+    "Method": "GetByCliente",
+    "RelativePath": "api/BonArtCli/GetByCliente/{codCli}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BonClaDetController",
+    "Method": "GetAll",
+    "RelativePath": "api/BonClaDet/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BonClaDetController",
+    "Method": "GetByCodClaBon",
+    "RelativePath": "api/BonClaDet/GetByCodClaBon/{codClaBon}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codClaBon",
+        "Type": "System.Int16",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BonificacionController",
+    "Method": "GetArticulosConBonificacion",
+    "RelativePath": "api/Bonificacion/GetArticulosConBonificacion/{codCli}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BonificacionController",
+    "Method": "GetBonificacionBase",
+    "RelativePath": "api/Bonificacion/GetBonificacionBase/{codCli}/{codArt}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "codArt",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CaferLitoral_CRM_API.Controllers.BonificacionController",
+    "Method": "GetPorcentaje",
+    "RelativePath": "api/Bonificacion/GetPorcentaje/{codCli}/{codArt}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codCli",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "codArt",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "cantidad",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "precioUnitario",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CaferLitoral_CRM_API.Controllers.ClientController",
     "Method": "GetById",
     "RelativePath": "api/Client/GetById/{codCli}",
