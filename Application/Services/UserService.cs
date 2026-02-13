@@ -31,13 +31,16 @@ namespace Application.Services
             if (user == null || user.Inactivo)
                 return null;
 
+            // ⬅️ TRIM para manejar espacios de CHAR
+            string storedPassword = user.PwdUsr?.Trim() ?? string.Empty;
+
             // Detectar si la contraseña está hasheada (BCrypt comienza con "$2")
-            bool isPasswordHashed = user.PwdUsr.StartsWith("$2");
+            bool isPasswordHashed = storedPassword.StartsWith("$2");
 
             if (isPasswordHashed)
             {
                 // ✅ Contraseña ya hasheada - verificar con BCrypt
-                if (_hashingService.Verify(password, user.PwdUsr))
+                if (_hashingService.Verify(password, storedPassword))
                 {
                     return user;
                 }
@@ -45,7 +48,7 @@ namespace Application.Services
             else
             {
                 // ⚠️ Contraseña en texto plano - comparar directamente
-                if (user.PwdUsr == password)
+                if (storedPassword == password) // ⬅️ Ahora compara sin espacios
                 {
                     // ✅ Login exitoso - AHORA hashear y actualizar
                     user.PwdUsr = _hashingService.Hash(password);

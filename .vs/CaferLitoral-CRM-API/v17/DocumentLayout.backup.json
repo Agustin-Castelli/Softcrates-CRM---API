@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{2E797787-7618-4779-B3E7-BF8FFD89DEA4}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFA631C1-B0C5-4549-92C1-CB8638E73A87}|Domain\\Domain.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFA631C1-B0C5-4549-92C1-CB8638E73A87}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D51FD09-0EB0-44D7-8355-8A93CAAFB9AC}|Infrastructure\\Infrastructure.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\infrastructure\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D51FD09-0EB0-44D7-8355-8A93CAAFB9AC}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EDE27A4-A277-45EE-85F4-8FB11F09D08A}|CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\caferlitoral-crm-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EDE27A4-A277-45EE-85F4-8FB11F09D08A}|CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj|solutionrelative:caferlitoral-crm-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E797787-7618-4779-B3E7-BF8FFD89DEA4}|Application\\Application.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\application\\services\\hashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E797787-7618-4779-B3E7-BF8FFD89DEA4}|Application\\Application.csproj|solutionrelative:application\\services\\hashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDE27A4-A277-45EE-85F4-8FB11F09D08A}|CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\caferlitoral-crm-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDE27A4-A277-45EE-85F4-8FB11F09D08A}|CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj|solutionrelative:caferlitoral-crm-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E797787-7618-4779-B3E7-BF8FFD89DEA4}|Application\\Application.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\application\\models\\requests\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E797787-7618-4779-B3E7-BF8FFD89DEA4}|Application\\Application.csproj|solutionrelative:application\\models\\requests\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA631C1-B0C5-4549-92C1-CB8638E73A87}|Domain\\Domain.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA631C1-B0C5-4549-92C1-CB8638E73A87}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDE27A4-A277-45EE-85F4-8FB11F09D08A}|CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\caferlitoral-crm-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDE27A4-A277-45EE-85F4-8FB11F09D08A}|CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj|solutionrelative:caferlitoral-crm-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E797787-7618-4779-B3E7-BF8FFD89DEA4}|Application\\Application.csproj|c:\\users\\agustin\\source\\repos\\caferlitoral-crm-api\\application\\interfaces\\ihashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -174,11 +182,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 523,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "UserLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Models\\Requests\\UserLoginRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Requests\\UserLoginRequest.cs",
+              "ToolTip": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Models\\Requests\\UserLoginRequest.cs",
+              "RelativeToolTip": "Application\\Models\\Requests\\UserLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T13:17:31.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CaferLitoral-CRM-API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T13:09:00.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
@@ -191,20 +233,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Infrastructure\\Data\\UserRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Infrastructure\\Data\\UserRepository.cs",
               "RelativeToolTip": "Infrastructure\\Data\\UserRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T20:55:58.944Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -214,14 +252,14 @@
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvz0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T22:56:50.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IHashingService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Interfaces\\IHashingService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IHashingService.cs",
@@ -229,25 +267,24 @@
               "RelativeToolTip": "Application\\Interfaces\\IHashingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T20:37:38.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T20:37:38.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "HashingService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\HashingService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\HashingService.cs",
               "ToolTip": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\HashingService.cs",
               "RelativeToolTip": "Application\\Services\\HashingService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T20:36:46.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PreVen.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Entities\\PreVen.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\PreVen.cs",
@@ -255,12 +292,11 @@
               "RelativeToolTip": "Domain\\Entities\\PreVen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T00:23:59.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T00:23:59.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "FacturaService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\FacturaService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\FacturaService.cs",
@@ -268,12 +304,11 @@
               "RelativeToolTip": "Application\\Services\\FacturaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:56:44.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:56:44.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ClientService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\ClientService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ClientService.cs",
@@ -281,12 +316,11 @@
               "RelativeToolTip": "Application\\Services\\ClientService.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:56:42.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:56:42.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "PedWebArt.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Entities\\PedWebArt.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\PedWebArt.cs",
@@ -294,12 +328,11 @@
               "RelativeToolTip": "Domain\\Entities\\PedWebArt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T21:23:37.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T21:23:37.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\appsettings.json",
               "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\appsettings.json",
@@ -307,12 +340,11 @@
               "RelativeToolTip": "CaferLitoral-CRM-API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-18T17:07:01.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T17:07:01.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "BonificacionService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\BonificacionService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\BonificacionService.cs",
@@ -320,12 +352,11 @@
               "RelativeToolTip": "Application\\Services\\BonificacionService.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAIwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:56:03.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:56:03.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Program.cs",
               "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\Program.cs",
@@ -333,12 +364,11 @@
               "RelativeToolTip": "CaferLitoral-CRM-API\\Program.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T22:16:04.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T22:16:04.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "BonificacionController.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Controllers\\BonificacionController.cs",
               "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\Controllers\\BonificacionController.cs",
@@ -346,12 +376,11 @@
               "RelativeToolTip": "CaferLitoral-CRM-API\\Controllers\\BonificacionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T00:42:20.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T00:42:20.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IBonificacionService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Interfaces\\IBonificacionService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IBonificacionService.cs",
@@ -359,12 +388,11 @@
               "RelativeToolTip": "Application\\Interfaces\\IBonificacionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:54:21.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:54:21.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Infrastructure\\Data\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationContext.cs",
@@ -372,16 +400,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\ApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T21:42:56.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-09-02T21:42:56.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "BonArtCliController.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Controllers\\BonArtCliController.cs",
               "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\Controllers\\BonArtCliController.cs",
@@ -389,12 +412,11 @@
               "RelativeToolTip": "CaferLitoral-CRM-API\\Controllers\\BonArtCliController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwCUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T00:53:13.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T00:53:13.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "BocEntService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\BocEntService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\BocEntService.cs",
@@ -402,12 +424,11 @@
               "RelativeToolTip": "Application\\Services\\BocEntService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T22:17:01.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T22:17:01.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PedidoService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\PedidoService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\PedidoService.cs",
@@ -415,12 +436,11 @@
               "RelativeToolTip": "Application\\Services\\PedidoService.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwLwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:35:38.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T19:35:38.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "BonClaDetController.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Controllers\\BonClaDetController.cs",
               "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\Controllers\\BonClaDetController.cs",
@@ -428,12 +448,11 @@
               "RelativeToolTip": "CaferLitoral-CRM-API\\Controllers\\BonClaDetController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T00:53:53.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T00:53:53.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ArticuloService.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Services\\ArticuloService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ArticuloService.cs",
@@ -441,12 +460,11 @@
               "RelativeToolTip": "Application\\Services\\ArticuloService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T21:40:01.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T21:40:01.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "PreVRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Infrastructure\\Data\\PreVRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\PreVRepository.cs",
@@ -454,12 +472,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\PreVRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T23:26:01.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T23:26:01.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "BonificacionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Models\\DTOs\\BonificacionDTO.cs",
               "RelativeDocumentMoniker": "Application\\Models\\DTOs\\BonificacionDTO.cs",
@@ -467,12 +484,11 @@
               "RelativeToolTip": "Application\\Models\\DTOs\\BonificacionDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:37:16.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:37:16.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "BocEntDTO.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Models\\DTOs\\BocEntDTO.cs",
               "RelativeDocumentMoniker": "Application\\Models\\DTOs\\BocEntDTO.cs",
@@ -480,12 +496,11 @@
               "RelativeToolTip": "Application\\Models\\DTOs\\BocEntDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:35:09.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T21:35:09.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "BonClaDetRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Infrastructure\\Data\\BonClaDetRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\BonClaDetRepository.cs",
@@ -493,12 +508,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\BonClaDetRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:31:31.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T21:31:31.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "BonArtCli.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Entities\\BonArtCli.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\BonArtCli.cs",
@@ -506,12 +520,11 @@
               "RelativeToolTip": "Domain\\Entities\\BonArtCli.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T21:02:57.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T21:02:57.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "BonArtCliRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Infrastructure\\Data\\BonArtCliRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\BonArtCliRepository.cs",
@@ -519,12 +532,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\BonArtCliRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:23:30.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T21:23:30.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "IBonClaDetRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Interfaces\\IBonClaDetRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IBonClaDetRepository.cs",
@@ -532,12 +544,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IBonClaDetRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:30:58.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T21:30:58.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "BonClaDet.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Entities\\BonClaDet.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\BonClaDet.cs",
@@ -545,12 +556,11 @@
               "RelativeToolTip": "Domain\\Entities\\BonClaDet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T21:05:10.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T21:05:10.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ClienteResumenDto.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Models\\DTOs\\ClienteResumenDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\DTOs\\ClienteResumenDto.cs",
@@ -558,12 +568,11 @@
               "RelativeToolTip": "Application\\Models\\DTOs\\ClienteResumenDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T21:01:32.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T21:01:32.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "CrearPedidoDto.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Models\\DTOs\\CrearPedidoDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\DTOs\\CrearPedidoDto.cs",
@@ -571,12 +580,11 @@
               "RelativeToolTip": "Application\\Models\\DTOs\\CrearPedidoDto.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAQwA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T21:23:16.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T21:23:16.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "IBonArtCliRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Interfaces\\IBonArtCliRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IBonArtCliRepository.cs",
@@ -584,12 +592,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IBonArtCliRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:57:45.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T20:57:45.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ArticuloDto.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Application\\Models\\DTOs\\ArticuloDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\DTOs\\ArticuloDto.cs",
@@ -597,12 +604,11 @@
               "RelativeToolTip": "Application\\Models\\DTOs\\ArticuloDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T21:38:40.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T21:38:40.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "IArticuloRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Interfaces\\IArticuloRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IArticuloRepository.cs",
@@ -610,12 +616,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IArticuloRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:44:37.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:44:37.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "PedWebCab.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Entities\\PedWebCab.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\PedWebCab.cs",
@@ -623,12 +628,11 @@
               "RelativeToolTip": "Domain\\Entities\\PedWebCab.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAA1wDAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T21:23:58.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T21:23:58.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "ArticuloRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Infrastructure\\Data\\ArticuloRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\ArticuloRepository.cs",
@@ -636,12 +640,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\ArticuloRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:17:27.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:17:27.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "IPedidoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Interfaces\\IPedidoRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IPedidoRepository.cs",
@@ -649,12 +652,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IPedidoRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAawBMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:48:33.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T19:48:33.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "BocEntController.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Controllers\\BocEntController.cs",
               "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\Controllers\\BocEntController.cs",
@@ -662,12 +664,11 @@
               "RelativeToolTip": "CaferLitoral-CRM-API\\Controllers\\BocEntController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAwwDcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T22:15:32.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T22:15:32.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "PedidoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Infrastructure\\Data\\PedidoRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\PedidoRepository.cs",
@@ -675,12 +676,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\PedidoRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwEAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:47:10.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T19:47:10.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\Controllers\\PedidoController.cs",
@@ -688,12 +688,11 @@
               "RelativeToolTip": "CaferLitoral-CRM-API\\Controllers\\PedidoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T21:31:10.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T21:31:10.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "ArticuloController.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API\\Controllers\\ArticuloController.cs",
               "RelativeDocumentMoniker": "CaferLitoral-CRM-API\\Controllers\\ArticuloController.cs",
@@ -701,12 +700,11 @@
               "RelativeToolTip": "CaferLitoral-CRM-API\\Controllers\\ArticuloController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T21:31:09.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T21:31:09.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\Agustin\\source\\repos\\CaferLitoral-CRM-API\\Domain\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Client.cs",
@@ -714,8 +712,7 @@
               "RelativeToolTip": "Domain\\Entities\\Client.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T20:25:28.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T20:25:28.888Z"
             }
           ]
         },
