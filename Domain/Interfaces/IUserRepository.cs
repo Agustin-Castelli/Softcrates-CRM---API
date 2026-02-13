@@ -9,6 +9,7 @@ namespace Domain.Interfaces
 {
     public interface IUserRepository
     {
-        Task<User> GetByCredentialsAsync(string codusr, string password);
+        Task<User> GetByUsernameAsync(string username);
+        Task UpdateAsync(User user);
     }
 }

@@ -18,12 +18,27 @@ namespace Infrastructure.Data
             _context = context;
         }
 
-        public async Task<User?> GetByCredentialsAsync(string username, string password)
+
+        public async Task<User?> GetByUsernameAsync(string username)
         {
-            // Nota: Esto no encripta ni valida hash, solo compara texto plano
             return await _context.Usuarios
-                .AsNoTracking()
-                .FirstOrDefaultAsync(u => u.NomUsr == username && u.PwdUsr == password && !u.Inactivo);
+                .FirstOrDefaultAsync(u => u.NomUsr == username);
         }
+
+        // Agregar método para actualizar
+        public async Task UpdateAsync(User user)
+        {
+            _context.Usuarios.Update(user);
+            await _context.SaveChangesAsync();
+        }
+
+
+        //public async Task<User?> GetByCredentialsAsync(string username, string password)
+        //{
+        //    // Nota: Esto no encripta ni valida hash, solo compara texto plano
+        //    return await _context.Usuarios
+        //        .AsNoTracking()
+        //        .FirstOrDefaultAsync(u => u.NomUsr == username && u.PwdUsr == password && !u.Inactivo);
+        //}
     }
 }

@@ -42,6 +42,7 @@ builder.Services.AddScoped<IArticuloService, ArticuloService>();
 builder.Services.AddScoped<IPedidoService, PedidoService>();
 builder.Services.AddScoped<IBocEntService, BocEntService>();
 builder.Services.AddScoped<IBonificacionService, BonificacionService>();
+builder.Services.AddScoped<IHashingService, HashingService>();
 #endregion
 
 

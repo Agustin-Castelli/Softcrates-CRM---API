@@ -12,16 +12,56 @@ namespace Application.Services
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
+        private readonly IHashingService _hashingService;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository, IHashingService hashingService)
         {
             _userRepository = userRepository;
+            _hashingService = hashingService;
         }
+
 
         public async Task<User?> AuthenticateAsync(string username, string password)
         {
-            // Aquí más adelante podés meter validación de hash y JWT
-            return await _userRepository.GetByCredentialsAsync(username, password);
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+                return null;
+
+            var user = await _userRepository.GetByUsernameAsync(username);
+
+            if (user == null || user.Inactivo)
+                return null;
+
+            // Detectar si la contraseña está hasheada (BCrypt comienza con "$2")
+            bool isPasswordHashed = user.PwdUsr.StartsWith("$2");
+
+            if (isPasswordHashed)
+            {
+                // ✅ Contraseña ya hasheada - verificar con BCrypt
+                if (_hashingService.Verify(password, user.PwdUsr))
+                {
+                    return user;
+                }
+            }
+            else
+            {
+                // ⚠️ Contraseña en texto plano - comparar directamente
+                if (user.PwdUsr == password)
+                {
+                    // ✅ Login exitoso - AHORA hashear y actualizar
+                    user.PwdUsr = _hashingService.Hash(password);
+                    await _userRepository.UpdateAsync(user);
+
+                    return user;
+                }
+            }
+
+            return null;
         }
+
+        //public async Task<User?> AuthenticateAsync(string username, string password)
+        //{
+        //    // Aquí más adelante podés meter validación de hash y JWT
+        //    return await _userRepository.GetByCredentialsAsync(username, password);
+        //}
     }
 }

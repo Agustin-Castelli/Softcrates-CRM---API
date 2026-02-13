@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaferLitoral-CRM-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf97f038f4f3dcd127e9864a5845e3aa3bdf60c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20bba3feaac7ec4dfc6df03ef8159685868c7123")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaferLitoral-CRM-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaferLitoral-CRM-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
