@@ -1,8 +1,7 @@
 ﻿using Application.Interfaces;
 using Application.Models.Requests;
 using Application.Models.Responses;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CaferLitoral_CRM_API.Controllers
@@ -11,22 +10,23 @@ namespace CaferLitoral_CRM_API.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IUserService _userService;
+        private readonly IAuthenticationService _authenticationService;
 
-        public UserController(IUserService userService)
+        public UserController(IAuthenticationService authenticationService)
         {
-            _userService = userService;
+            _authenticationService = authenticationService;
         }
 
         [HttpPost("[action]")]
+        [AllowAnonymous] // ⬅️ Permite acceso sin token
         public async Task<IActionResult> Login([FromBody] UserLoginRequest request)
         {
             if (string.IsNullOrWhiteSpace(request.Username) || string.IsNullOrWhiteSpace(request.Password))
                 return BadRequest("Usuario o contraseña inválidos.");
 
-            var user = await _userService.AuthenticateAsync(request.Username, request.Password);
+            var (user, token) = await _authenticationService.AuthenticateAsync(request.Username, request.Password);
 
-            if (user == null)
+            if (user == null || token == null)
                 return Unauthorized(new UserLoginResponse(
                     codUsr: string.Empty,
                     name: string.Empty,
@@ -34,15 +34,11 @@ namespace CaferLitoral_CRM_API.Controllers
                     token: string.Empty
                 ));
 
-
-            // Más adelante acá podríamos generar el JWT
-
-
             var response = new UserLoginResponse(
                 codUsr: user.CodUsr,
                 name: user.NomUsr,
                 isAdmin: user.AdmUsr,
-                token: string.Empty // Por ahora vacío
+                token: token // ⬅️ AHORA SÍ retorna el token
             );
 
             return Ok(response);

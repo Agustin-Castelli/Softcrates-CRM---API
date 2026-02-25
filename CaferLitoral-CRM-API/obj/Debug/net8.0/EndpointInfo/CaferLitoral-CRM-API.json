@@ -673,6 +673,18 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "ApiBearerAuth": {
+        "type": "http",
+        "description": "Introduzca el token JWT como: Bearer {token}",
+        "scheme": "Bearer"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "ApiBearerAuth": [ ]
+    }
+  ]
 }
