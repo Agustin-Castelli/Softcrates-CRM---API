@@ -27,7 +27,12 @@ namespace Application.Services
             foreach (var art in articulos) 
             { 
                 var precio = await _preVRepo.ObtenerPrecioAsync(art.CodArt);
-                resultado.Add(new ArticuloDto { CodArt = art.CodArt, DesArt = art.DesArt, Precio = precio ?? 0 });
+                resultado.Add(new ArticuloDto { 
+                    CodArt = art.CodArt, 
+                    DesArt = art.DesArt, 
+                    Precio = precio ?? 0, 
+                    Inactivo = art.Inactivo
+                });
             } 
 
             return resultado; 
@@ -46,7 +51,8 @@ namespace Application.Services
                 {
                     CodArt = art.CodArt,
                     DesArt = art.DesArt,
-                    Precio = precio ?? 0
+                    Precio = precio ?? 0,
+                    Inactivo = art.Inactivo
                 });
             }
 
@@ -68,7 +74,8 @@ namespace Application.Services
                 {
                     CodArt = art.CodArt,
                     DesArt = art.DesArt,
-                    Precio = precio ?? 0
+                    Precio = precio ?? 0,
+                    Inactivo = art.Inactivo
                 });
             }
 
@@ -86,7 +93,8 @@ namespace Application.Services
             {
                 CodArt = art.CodArt,
                 DesArt = art.DesArt,
-                Precio = precio ?? 0
+                Precio = precio ?? 0,
+                Inactivo = art.Inactivo
             };
         }
     }

@@ -20,12 +20,13 @@ namespace Infrastructure.Data
 
         public async Task<IEnumerable<Artic>> GetAll() 
         {
-            return await _context.Articulos.ToListAsync(); 
+            return await _context.Articulos.Where(a => a.Inactivo == 0).ToListAsync(); 
         }
 
         public async Task<IEnumerable<Artic>> ObtenerArticulosAsync(int pageNumber, int pageSize)
         {
             return await _context.Articulos
+                .Where(a => a.Inactivo == 0)
                 .OrderBy(a => a.DesArt)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
@@ -36,13 +37,14 @@ namespace Infrastructure.Data
         public async Task<IEnumerable<Artic>> BuscarPorNombreAsync(string nombre)
         {
             return await _context.Articulos
-                .Where(a => a.DesArt.Contains(nombre))
+                .Where(a => a.Inactivo == 0 && a.DesArt.Contains(nombre))
                 .ToListAsync();
         }
 
         public async Task<Artic?> ObtenerPorCodigoAsync(string codArt)
         {
             return await _context.Articulos
+                .Where(a => a.Inactivo == 0)
                 .FirstOrDefaultAsync(a => a.CodArt == codArt);
         }
     }

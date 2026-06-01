@@ -11,6 +11,7 @@ namespace Domain.Entities
     {
         public string CodArt { get; set; } = string.Empty;
         public string DesArt { get; set; } = string.Empty;
+        public byte Inactivo { get; set; } = 0;
 
         public ICollection<PreVen>? Precios { get; set; }
         public ICollection<PedWebArt>? PedidosDetalle { get; set; }

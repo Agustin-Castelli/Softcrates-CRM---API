@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.o
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Local environment
+.env
+appsettings.local.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# macOS
+.DS_Store
+
+# Node (si usas npm/yarn)
+node_modules/
+dist/
+
+# Logs
+*.log

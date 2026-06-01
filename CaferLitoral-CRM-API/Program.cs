@@ -1,11 +1,13 @@
 using Application.Interfaces;
 using Application.Services;
+using AspNetCoreRateLimit;
 using Domain.Interfaces;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.HttpOverrides;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -91,6 +93,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme) // �
             ValidateIssuer = true,
             ValidateAudience = true,
             ValidateIssuerSigningKey = true,
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero,
             ValidIssuer = builder.Configuration["Authentication:Issuer"],
             ValidAudience = builder.Configuration["Authentication:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(
@@ -105,6 +109,21 @@ builder.Services.AddAuthorization(options =>
 });
 #endregion
 
+
+#region Rate Limiting 🔥 NUEVO
+// 🔥 PRIMERO - Registrar Memory Cache (requerido)
+builder.Services.AddMemoryCache();
+
+// SEGUNDO - Agregar Rate Limiting en memoria
+builder.Services.AddInMemoryRateLimiting();
+
+// Cargar configuración de rate limiting desde appsettings.json
+builder.Services.Configure<IpRateLimitOptions>(
+    builder.Configuration.GetSection("IpRateLimiting"));
+
+// Registrar configuración
+builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+#endregion
 
 
 #region CORS
@@ -124,10 +143,23 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 // Habilitar Swagger siempre (incluso en producción)
-app.UseSwagger();
-app.UseSwaggerUI();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseHttpsRedirection();
+
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders =
+        ForwardedHeaders.XForwardedFor |
+        ForwardedHeaders.XForwardedProto
+});
+
+// 🔥 AGREGAR MIDDLEWARE DE RATE LIMITING - ORDEN IMPORTANTE
+app.UseIpRateLimiting();
 
 app.UseCors("AllowMauiApp");
 

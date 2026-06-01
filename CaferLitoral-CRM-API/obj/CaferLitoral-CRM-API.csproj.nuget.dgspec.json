@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj": {}
+    "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj": {
+    "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\agus-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Agustin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\agus-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Agustin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj"
+              "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj"
               }
             }
           }
@@ -49,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -88,24 +88,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj": {
+    "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj",
+        "projectUniqueName": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj",
         "projectName": "CaferLitoral-CRM-API",
-        "projectPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj",
-        "packagesPath": "C:\\Users\\agus-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\obj\\",
+        "projectPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\CaferLitoral-CRM-API.csproj",
+        "packagesPath": "C:\\Users\\Agustin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\CaferLitoral-CRM-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\agus-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Agustin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,11 +121,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj"
+              "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj"
               },
-              "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -140,12 +140,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.24, )"
@@ -178,24 +182,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj": {
+    "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\agus-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Agustin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\agus-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Agustin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -223,7 +227,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -244,24 +248,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\agus-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Agustin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\agus-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Agustin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -277,8 +281,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\agus-\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj"
+              "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Agustin\\source\\repos\\Softcrates-CRM---API\\Application\\Application.csproj"
               }
             }
           }
@@ -293,7 +297,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -330,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

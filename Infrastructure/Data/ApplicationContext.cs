@@ -143,6 +143,7 @@ namespace Infrastructure.Data
 
                 entity.Property(e => e.CodArt).HasColumnName("CodArt");
                 entity.Property(e => e.DesArt).HasColumnName("DesArt");
+                entity.Property(e => e.Inactivo).HasColumnName("Inactivo");
             });
 
             // --- mapeo tabla PedWebCab ---
